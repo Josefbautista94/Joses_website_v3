@@ -1,11 +1,17 @@
-import { useState } from 'react'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Navbar from './components/Navbar/Navbar';
+import '/index.css'; 
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-<h1>Website Currently Under Construction!</h1>
-  )
+    <Router>
+      <Navbar />
+      <Routes>
+    
+        {/* Add other routes like /projects /about /contact later */}
+      </Routes>
+    </Router>
+  );
 }
 
-export default App
+export default App;
