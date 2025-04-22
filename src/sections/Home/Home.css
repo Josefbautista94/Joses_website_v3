@@ -1,3 +1,5 @@
+/* src/sections/Home.css */
+
 .home {
     height: 100vh;
     display: flex;
@@ -33,5 +35,21 @@
   
   .home-btn:hover {
     background-color: #0099cc;
+  }
+  
+  /* 🔥 Mobile Responsive Tweaks */
+  @media (max-width: 600px) {
+    .home-content h1 {
+      font-size: 1.8rem;
+    }
+  
+    .home-content p {
+      font-size: 1rem;
+    }
+  
+    .home-btn {
+      padding: 0.6rem 1.2rem;
+      font-size: 0.95rem;
+    }
   }
   
