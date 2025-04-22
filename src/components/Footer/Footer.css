@@ -1,12 +1,22 @@
+/* src/components/Footer/Footer.css */
+
 .footer {
-    text-align: center;
-    padding: 1rem 2rem;
-    background-color: #111;
-    color: #aaa;
-    font-size: 0.9rem;
-    margin-top: 4rem;
+  text-align: center;
+  padding: 1rem 2rem;
+  background-color: #111;
+  color: #aaa;
+  font-size: 0.9rem;
+  margin-top: 4rem;
+}
+
+.footer p {
+  margin: 0;
+}
+
+/* 📱 Mobile Tweaks */
+@media (max-width: 600px) {
+  .footer {
+    padding: 1rem;
+    font-size: 0.8rem;
   }
-  
-  .footer p {
-    margin: 0;
-  }
+}
