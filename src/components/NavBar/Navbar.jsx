@@ -10,7 +10,7 @@ export default function Navbar() {
   return (
     <nav className="navbar">
       <div className="navbar-logo">
-        <a href="#home">Welcome</a>
+        <a href="#home">JB</a>
       </div>
 
       <div className="hamburger" onClick={toggleMenu}>
