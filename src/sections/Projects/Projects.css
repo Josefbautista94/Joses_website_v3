@@ -39,3 +39,30 @@
 .project-links a:hover {
   background-color: #0099cc;
 }
+
+@media (max-width: 600px) {
+  .projects-section {
+    padding: 2rem 1rem;
+  }
+
+  .project-card {
+    padding: 1rem;
+  }
+
+  .projects-section h2 {
+    font-size: 1.5rem;
+  }
+
+  .project-card h3 {
+    font-size: 1.25rem;
+  }
+
+  .project-card p {
+    font-size: 0.95rem;
+  }
+
+  .project-links a {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.9rem;
+  }
+}
