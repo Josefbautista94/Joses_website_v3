@@ -37,8 +37,17 @@ export default function Projects() {
           </div>
         </SwiperSlide>
 
-        {/* Add more <SwiperSlide> elements here */}
-      </Swiper>
+        <SwiperSlide>
+          <div className="project-card">
+            <h3>Crime Tracker NYC</h3>
+            <p>An App with an interactive map that allows you to see crime from the 5 boroughs!.</p>
+            <p><strong>Tech:</strong> HTML, JS, Axios, MongoDB, Express</p>
+            <div className="project-links">
+              <a href="https://github.com/" target="_blank">GitHub</a>
+              <a href="https://demo.com" target="_blank">Live Demo</a>
+            </div>
+          </div>
+        </SwiperSlide>      </Swiper>
     </section>
   );
 }
