@@ -52,17 +52,20 @@
 
 /* Mobile styles */
 @media (max-width: 768px) {
-    .navbar-links {
-        position: absolute;
-        top: 100%;
-        left: 0;
-        right: 0;
-        background-color: #111;
-        flex-direction: column;
-        align-items: center;
-        display: none;
-    }
+  .navbar-links {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: #111;
+    flex-direction: column;
+    align-items: center;
+    display: none;
+    padding-top: 0;  /* 🔧 remove extra space */
+    margin-top: 0;
+  }
 
+  
     .navbar-links.active {
         display: flex;
     }
