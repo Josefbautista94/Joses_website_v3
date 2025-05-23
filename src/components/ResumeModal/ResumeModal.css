@@ -8,6 +8,7 @@
   border-radius: 10px;
   position: relative;
   text-align: center;
+
 }
 
 /* Embedded PDF iframe */
@@ -17,7 +18,10 @@
   border: none;
   margin-top: 1rem;
   display: block;
+  overflow: scroll;
+  /* important */
 }
+
 
 /* Download Button */
 .download-btn {
