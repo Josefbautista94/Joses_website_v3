@@ -21,3 +21,30 @@
 .download-btn:hover {
   background-color: #0099cc;
 }
+
+.close-btn {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 0.5rem;
+  z-index: 10;
+}
+
+/* Add mobile fix */
+@media (max-width: 600px) {
+  .close-btn {
+    top: 0.5rem;
+    right: 0.5rem;
+    font-size: 1.3rem;
+    padding: 0.75rem;
+  }
+
+  .modal-content.resume-modal {
+    padding-top: 2.5rem; /* add space so the close button doesn’t overlap */
+  }
+}
