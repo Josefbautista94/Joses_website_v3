@@ -84,3 +84,15 @@
 .bar.open:nth-child(3) {
     transform: rotate(-45deg) translate(5px, -5px);
 }
+
+/* Navbar.css */
+.navbar-links button.nav-contact-btn {
+  background: none;
+  border: none;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+  text-decoration: none;
+  padding: 0;
+  font-weight: 500;
+}
