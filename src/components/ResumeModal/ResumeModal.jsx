@@ -11,7 +11,7 @@ export default function ResumeModal({ onClose }) {
           title="Resume PDF"
           className="resume-frame"
         ></iframe>
-        <a href="/resume.pdf" download className="download-btn">
+<a href="/JoseBautista.pdf" target="_blank" className="download-btn">
           Download PDF
         </a>
       </div>

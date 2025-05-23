@@ -1,13 +1,27 @@
-/* You can reuse modal-overlay and modal-content styles */
-.resume-modal .resume-frame {
+/* Resume Modal Base Styles */
+.modal-content.resume-modal {
+  padding: 2rem 1.5rem;
+  width: 95%;
+  max-width: 600px;
+  margin: 0 auto;
+  background: #1a1a1a;
+  border-radius: 10px;
+  position: relative;
+  text-align: center;
+}
+
+/* Embedded PDF iframe */
+.resume-frame {
   width: 100%;
   height: 70vh;
   border: none;
   margin-top: 1rem;
+  display: block;
 }
 
+/* Download Button */
 .download-btn {
-  margin-top: 1rem;
+  margin-top: 1.5rem;
   display: inline-block;
   background-color: #00bfff;
   color: #0e0e0e;
@@ -22,21 +36,31 @@
   background-color: #0099cc;
 }
 
+/* Close Button */
 .close-btn {
   position: absolute;
-  top: 1rem;
-  right: 1rem;
+  top: 0.75rem;
+  right: 0.75rem;
   background: transparent;
   border: none;
   color: white;
   font-size: 1.5rem;
-  cursor: pointer;
   padding: 0.5rem;
+  cursor: pointer;
   z-index: 10;
 }
 
-/* Add mobile fix */
+/* Mobile Tweaks */
 @media (max-width: 600px) {
+  .modal-content.resume-modal {
+    padding: 2rem 1rem 1.5rem;
+    width: 90%;
+  }
+
+  .resume-frame {
+    height: 60vh;
+  }
+
   .close-btn {
     top: 0.5rem;
     right: 0.5rem;
@@ -44,7 +68,8 @@
     padding: 0.75rem;
   }
 
-  .modal-content.resume-modal {
-    padding-top: 2.5rem; /* add space so the close button doesn’t overlap */
+  .download-btn {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
   }
 }
