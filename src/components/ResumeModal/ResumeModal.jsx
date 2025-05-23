@@ -7,7 +7,7 @@ export default function ResumeModal({ onClose }) {
         <button className="close-btn" onClick={onClose}>✖</button>
         <h2>My Resume</h2>
         <iframe
-          src="public/JoseBautista.pdf"
+          src="/JoseBautista.pdf"
           title="Resume PDF"
           className="resume-frame"
         ></iframe>
