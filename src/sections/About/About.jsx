@@ -12,8 +12,8 @@ export default function About() {
         </p>
 
         <p>
-          I recently completed the Software Engineering program at
-          <strong>Per Scholas</strong> (May 2025), where I focused on full-stack
+          I recently completed the <strong>Software Engineering</strong> program at
+          <strong> Per Scholas </strong> (May 2025), where I focused on full-stack
           development using the MERN stack — MongoDB, Express.js, React, and
           Node.js.
         </p>
