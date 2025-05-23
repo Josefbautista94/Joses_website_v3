@@ -8,6 +8,7 @@
   border-radius: 10px;
   position: relative;
   text-align: center;
+  overflow-y: auto;
 
 }
 
@@ -18,8 +19,8 @@
   border: none;
   margin-top: 1rem;
   display: block;
-  overflow: scroll;
-  /* important */
+  overflow: auto;
+  -webkit-overflow-scrolling: touch; /* THIS is key for iOS */
 }
 
 
