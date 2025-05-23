@@ -35,10 +35,6 @@ export default function ResumeModal({ onClose }) {
             className="resume-frame"
           />
         )}
-
-        <a href="/JoseBautista.pdf" download className="download-btn">
-          Download PDF
-        </a>
       </div>
     </div>
   );
