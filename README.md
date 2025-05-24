@@ -1,13 +1,57 @@
-# React + Vite
+# 🧑‍💻 Jose Bautista - Developer Portfolio (V3)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal developer portfolio site! This project showcases who I am, what I build, and how to get in touch — all wrapped in a mobile-friendly, React-based interface.
 
-Currently, two official plugins are available:
+Deployed: [https://josebautista.biz](https://josebautista.biz)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# Joses_website_v3
+- **Responsive Navbar** with hamburger menu and modal-based navigation
+- **Smooth Scroll One-Page Layout** with sections: Home, About, Projects, Resume, Contact
+- **Resume Modal** with embedded PDF preview (desktop) or direct link (mobile)
+- **Projects Carousel** using `Swiper.js` for interactive showcasing
+- **About Section** with career highlights, education, and certifications
+- **Contact Modal** for clean communication options (LinkedIn, GitHub, email)
+
+---
+
+## 📁 Tech Stack
+
+- **React + Vite** for blazing-fast frontend performance
+- **CSS Modules + Media Queries** for custom styling and mobile responsiveness
+- **Swiper.js** for the interactive project carousel
+- **Modals** built from scratch using React state and conditional rendering
+- **Hosted on Vercel** with custom domain at [josebautista.biz](https://josebautista.biz)
+
+---
+
+## 🧠 Learnings & Notes
+
+- Embedded PDFs don’t scroll on iOS — used conditional rendering to fix UX
+- Mobile download behavior is limited, so resume links open in new tab instead
+- Emphasis on clean structure and modern UI/UX principles
+
+---
+
+## 📬 Contact
+
+- [GitHub](https://github.com/Josefbautista94)
+- [LinkedIn](https://www.linkedin.com/in/josefbautista94/)
+- Email: JoseF.Bautista22@gmail.com
+
+---
+
+## 🚧 To Do / Coming Soon
+
+- Add blog or articles section
+- Add animations or transitions for smooth UI polish
+- Possibly integrate form-based contact with validation
+- Dark mode toggle?
+
+---
+
+## 🔖 License
+
+This portfolio is for personal/professional use. Feel free to browse or take inspiration with credit.
