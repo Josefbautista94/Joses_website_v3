@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import "./ResumeModal.css";
+import ResumeViewer from "./ResumeViewer";
 
 export default function ResumeModal({ onClose }) {
   const [isMobile, setIsMobile] = useState(false);
@@ -29,11 +30,7 @@ export default function ResumeModal({ onClose }) {
             View Full Resume
           </a>
         ) : (
-          <iframe
-            src="/JoseBautista.pdf"
-            title="Resume PDF"
-            className="resume-frame"
-          />
+          <ResumeViewer />
         )}
       </div>
     </div>

@@ -1,0 +1,21 @@
+.resume-viewer {
+  text-align: center;
+  padding: 1rem;
+}
+
+.resume-viewer canvas {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.download-link {
+  display: inline-block;
+  background: #00bfff;
+  padding: 0.6rem 1rem;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-top: 1rem;
+}
