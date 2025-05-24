@@ -18,27 +18,19 @@ export default function ResumeModal({ onClose }) {
         <button className="close-btn" onClick={onClose}>✖</button>
         <h2>My Resume</h2>
 
-        {isMobile ? (
+        {/* ✅ Always render ResumeViewer */}
+        <ResumeViewer />
+
+        {/* ✅ Only show "Open in New Tab" on desktop/tablet */}
+        {!isMobile && (
           <a
             href="/JoseBautista.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="download-btn"
           >
-            View Full Resume
+            Open in New Tab
           </a>
-        ) : (
-          <>
-            <ResumeViewer />
-            <a
-              href="/JoseBautista.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="download-btn"
-            >
-              Open in New Tab
-            </a>
-          </>
         )}
       </div>
     </div>
