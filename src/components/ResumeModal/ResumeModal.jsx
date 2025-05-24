@@ -3,12 +3,6 @@ import ResumeViewer from "./ResumeViewer";
 import "./ResumeModal.css";
 
 export default function ResumeModal({ onClose }) {
-  const [isMobile, setIsMobile] = useState(false);
-
-  useEffect(() => {
-    setIsMobile(window.innerWidth <= 600);
-  }, []);
-
   return (
     <div className="modal-overlay" onClick={onClose}>
       <div
@@ -18,20 +12,16 @@ export default function ResumeModal({ onClose }) {
         <button className="close-btn" onClick={onClose}>✖</button>
         <h2>My Resume</h2>
 
-        {/* ✅ Always render ResumeViewer */}
         <ResumeViewer />
 
-        {/* ✅ Only show "Open in New Tab" on desktop/tablet */}
-        {!isMobile && (
-          <a
-            href="/JoseBautista.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="download-btn"
-          >
-            Open in New Tab
-          </a>
-        )}
+        <a
+          href="/JoseBautista.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="download-btn"
+        >
+          Open in New Tab
+        </a>
       </div>
     </div>
   );
