@@ -2,17 +2,17 @@
 .modal-content.resume-modal {
   padding: 2rem 1.5rem;
   width: 95%;
-  max-width: 600px;
+  max-width: 800px;
   margin: 0 auto;
   background: #1a1a1a;
   border-radius: 10px;
   position: relative;
   text-align: center;
   overflow-y: auto;
-
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
 }
 
-/* Embedded PDF iframe */
+/* PDF iframe (for fallback) */
 .resume-frame {
   width: 100%;
   height: 70vh;
@@ -20,20 +20,30 @@
   margin-top: 1rem;
   display: block;
   overflow: auto;
-  -webkit-overflow-scrolling: touch; /* THIS is key for iOS */
+  -webkit-overflow-scrolling: touch;
 }
 
+/* React PDF Viewer wrapper */
+.viewer-wrapper {
+  height: 75vh;
+  overflow: hidden;
+  margin: 1.5rem 0;
+  border-radius: 8px;
+  background-color: #2a2a2a;
+  padding: 0.5rem;
+  box-shadow: inset 0 0 5px rgba(255, 255, 255, 0.05);
+}
 
-/* Download Button */
+/* Download/Open Button */
 .download-btn {
-  margin-top: 1.5rem;
   display: inline-block;
   background-color: #00bfff;
   color: #0e0e0e;
   padding: 0.6rem 1.2rem;
-  text-decoration: none;
   font-weight: bold;
   border-radius: 5px;
+  text-decoration: none;
+  margin-top: 1rem;
   transition: background-color 0.3s ease;
 }
 
@@ -55,14 +65,15 @@
   z-index: 10;
 }
 
-/* Mobile Tweaks */
+/* Mobile Responsiveness */
 @media (max-width: 600px) {
   .modal-content.resume-modal {
     padding: 2rem 1rem 1.5rem;
     width: 90%;
   }
 
-  .resume-frame {
+  .resume-frame,
+  .viewer-wrapper {
     height: 60vh;
   }
 
