@@ -17,13 +17,22 @@
   max-width: 600px;
   margin: 0 auto;
   box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 320px;
+  text-align: center;
 }
 
+
 .project-links {
-  margin-top: 1rem;
+  margin-top: 1.5rem;
   display: flex;
   justify-content: center;
   gap: 1rem;
+  z-index: 2;
+  position: relative;
 }
 
 .project-links a {
@@ -40,6 +49,33 @@
   background-color: #0099cc;
 }
 
+/* Swiper pagination and nav fixes */
+.swiper {
+  display: flex;
+  justify-content: center;
+}
+
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: white;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  width: 30px;
+  height: 30px;
+}
+
+.swiper-pagination-bullet {
+  background-color: #00bfff;
+}
+
+.swiper-pagination {
+  margin-top: 1rem;
+  position: relative;
+  z-index: 1;
+}
+
 @media (max-width: 600px) {
   .projects-section {
     padding: 2rem 1rem;
@@ -47,6 +83,7 @@
 
   .project-card {
     padding: 1rem;
+    min-height: 340px; /* Prevent cramping with buttons + dots */
   }
 
   .projects-section h2 {
@@ -65,12 +102,4 @@
     padding: 0.4rem 0.8rem;
     font-size: 0.9rem;
   }
-}
-.swiper-button-next,
-.swiper-button-prev {
-  color: white;
-}
-
-.swiper-pagination-bullet {
-  background-color: #00bfff;
 }
