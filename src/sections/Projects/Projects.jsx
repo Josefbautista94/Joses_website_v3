@@ -18,7 +18,7 @@ export default function Projects() {
         slidesPerView={1}
         effect="fade"
         autoplay={{
-          delay: 3500, // Time between slides in ms
+          delay: 5500, // Time between slides in ms
           disableOnInteraction: false, // Keeps autoplay going after user interacts
         }}
         pagination={{ clickable: true }}
@@ -79,23 +79,26 @@ export default function Projects() {
           </div>
         </SwiperSlide>
 
-             <SwiperSlide>
-          <div className="project-card">
-            <h3>Portfolio Website</h3>
-            <p>A personal portfolio built with React and Vite to showcase my work and technical skills. Designed with a responsive layout, dark theme UI, and interactive modals for resume viewing and project previews.</p>
-            <p>
-              <strong>Tech:</strong> React, Vite, JS, CSS, HTML 
-            </p>
-            <div className="project-links">
-              <a href="https://github.com/Josefbautista94/Joses_website_v3" target="_blank">
-                GitHub
-              </a>
-              <a href="https://josebautista.biz/" target="_blank">
-                Live Demo
-              </a>
-            </div>
-          </div>
-        </SwiperSlide>
+<SwiperSlide>
+  <div className="project-card">
+    <h3>Portfolio Website</h3>
+    <p>
+      A personal portfolio built with React and Vite to showcase my work and technical skills. Designed with a responsive layout, dark theme UI, and interactive modals for resume viewing and project previews.
+    </p>
+    <p>
+      <strong>Tech:</strong> React, Vite, JS, CSS, HTML
+    </p>
+    <div className="project-links">
+      <a href="https://github.com/Josefbautista94/Joses_website_v3" target="_blank">
+        GitHub
+      </a>
+      <a href="https://josebautista.biz/" target="_blank">
+        Live Demo
+      </a>
+    </div>
+  </div>
+</SwiperSlide>
+
 
       </Swiper>
     </section>
