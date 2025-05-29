@@ -33,7 +33,7 @@ export default function Projects() {
               <strong>Tech:</strong> React, Express, MongoDB
             </p>
             <div className="project-links">
-              <a href="https://github.com/" target="_blank">
+              <a href="https://github.com/Josefbautista94/SBA319" target="_blank">
                 GitHub
               </a>
               <a href="https://demo.com" target="_blank">
@@ -51,7 +51,7 @@ export default function Projects() {
               <strong>Tech:</strong> HTML, JS, Axios
             </p>
             <div className="project-links">
-              <a href="https://github.com/" target="_blank">
+              <a href="https://github.com/Josefbautista94/Pokdex-App" target="_blank">
                 GitHub
               </a>
               <a href="https://demo.com" target="_blank">
@@ -69,7 +69,7 @@ export default function Projects() {
               <strong>Tech:</strong> HTML, JS, Axios, MongoDB, Express
             </p>
             <div className="project-links">
-              <a href="https://github.com/" target="_blank">
+              <a href="https://github.com/Josefbautista94/Capstone-Frontend" target="_blank">
                 GitHub
               </a>
               <a href="https://demo.com" target="_blank">
