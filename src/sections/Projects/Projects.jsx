@@ -48,13 +48,13 @@ export default function Projects() {
             <h3>Pokédex App</h3>
             <p>Search and explore Pokémon using a public API.</p>
             <p>
-              <strong>Tech:</strong> HTML, JS, Axios
+              <strong>Tech:</strong> React, CSS, HTML, JS, Axios
             </p>
             <div className="project-links">
-              <a href="https://github.com/Josefbautista94/Pokdex-App" target="_blank">
+              <a href="https://github.com/Josefbautista94/Pokedex-App" target="_blank">
                 GitHub
               </a>
-              <a href="https://demo.com" target="_blank">
+              <a href="https://pokedex-app-sigma-five.vercel.app/" target="_blank">
                 Live Demo
               </a>
             </div>
