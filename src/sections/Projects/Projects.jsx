@@ -33,7 +33,7 @@ export default function Projects() {
               <strong>Tech:</strong> React, Express, MongoDB
             </p>
             <div className="project-links">
-              <a href="https://github.com/Josefbautista94/SBA319" target="_blank">
+              <a href="https://github.com/Josefbautista94/Joses-Job-Tracker" target="_blank">
                 GitHub
               </a>
               <a href="https://demo.com" target="_blank">
