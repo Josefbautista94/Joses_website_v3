@@ -72,7 +72,7 @@ export default function Projects() {
               <a href="https://github.com/Josefbautista94/Capstone-Frontend" target="_blank">
                 GitHub
               </a>
-              <a href="https://demo.com" target="_blank">
+              <a href="https://nyc-crime-tracker-frontend.vercel.app/" target="_blank">
                 Live Demo
               </a>
             </div>
